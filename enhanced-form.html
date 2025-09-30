@@ -1,0 +1,153 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practice HTML5 advanced content and form creation with lists, tables, media, and built-in validation.">
+  <title>Enhanced HTML5 Content & Forms</title>
+</head>
+<body>
+  <header>
+    <h1>HTML5 Content & Forms Demonstration</h1>
+    <p>This page showcases lists, tables, media, and advanced HTML5 form features.</p>
+  </header>
+
+  <main>
+    <!-- Section: Lists -->
+    <section>
+      <h2>Favorite Programming Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C#</li>
+      </ul>
+
+      <h3>Steps to Build a Web Page</h3>
+      <ol>
+        <li>Plan your layout</li>
+        <li>Write semantic HTML</li>
+        <li>Add styles with CSS</li>
+        <li>Enhance with JavaScript</li>
+      </ol>
+    </section>
+
+    <!-- Section: Table -->
+    <section>
+      <h2>Weekly Schedule</h2>
+      <table border="1">
+        <caption>Sample Weekly Activities</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Activity</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Coding Practice</td>
+            <td>2 hours</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Team Meeting</td>
+            <td>1 hour</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Project Work</td>
+            <td>3 hours</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section: Media -->
+    <section>
+      <h2>Media Content</h2>
+      <figure>
+        <img src="images (1).jpeg" alt="Person coding on a laptop" width="300">
+        <figcaption>Coding in progress</figcaption>
+      </figure>
+
+      <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <video controls width="320">
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Section: Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+          
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required minlength="3"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+          </select><br><br>
+
+          <label>Subscribe to Newsletter:</label>
+          <input type="checkbox" id="newsletter" name="newsletter" checked><br><br>
+
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Info</legend>
+
+          <label for="website">Personal Website:</label>
+          <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890"><br><br>
+
+          <label for="bio">Short Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us something about yourself"></textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Learning Assignment</p>
+  </footer>
+</body>
+</html>
+```
